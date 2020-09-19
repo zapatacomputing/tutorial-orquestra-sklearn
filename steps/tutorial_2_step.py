@@ -1,11 +1,11 @@
-from orquestra.functions import *
-from orquestra.utils import save_json
+from tutorial.functions import *
+from tutorial.utils import *
 
-# This is the task for Tutorials 1 and 2
+# This is the task for Tutorial 2
 # It does an end-to-end job, from generating the dataset
 # to making the predictions and scoring the model
 
-def generate_train_predict(dataset_name, model_name):
+def generate_train_step(dataset_name, model_name):
     # Reading the data
     data = generate_dataset(dataset_name)
 

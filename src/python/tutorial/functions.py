@@ -29,6 +29,9 @@ def preprocess_data(data):
     features = data[:,:-1]
     labels = data[:,-1]
     return features.tolist(), labels.tolist()
+    #features = np.array(data[data.keys()[:-1]])
+    #labels = np.array(data[data.keys()[-1]])
+    #return features, labels
 
 def train_perceptron(features, labels):
     model = LogisticRegression()

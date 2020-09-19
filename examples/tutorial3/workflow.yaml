@@ -1,0 +1,59 @@
+# Workflow API version
+apiVersion: io.orquestra.workflow/1.0.0
+
+# Prefix for workflow ID
+name: tutorial-3-workflow
+
+# List components needed by workflow.
+imports:
+- name: sklearn-component
+  type: git
+  parameters:
+    repository: "git@github.com:zapatacomputing/tutorial-orquestra-sklearn.git"
+    branch: "master"
+
+steps:
+
+# This step generates and preprocesses the data
+- name: generate-data
+  config:
+    runtime:
+      type: python3
+      imports: [sklearn-component]
+      parameters:
+        file: sklearn-component/steps/tutorial_3_steps.py
+        function: generate_preprocess_step
+  inputs:
+    - dataset_name: "simple_dataset"
+      type: string
+  outputs:
+  - name: features
+    type: features_type
+  - name: labels
+    type: labels_type
+
+# This step trains the model, makes predictions, and evaluates the model
+- name: train-model
+  passed: [generate-data]
+  config:
+    runtime:
+      type: python3
+      imports: [sklearn-component]
+      parameters:
+        file: sklearn-component/steps/tutorial_3_steps.py
+        function: train_predict_accuracy_step
+  inputs:
+    - features: ((generate-data.features))
+      type: features_type
+    - labels: ((generate-data.labels))
+      type: features_type
+    - model_name: "perceptron"
+      type: string
+  outputs:
+  - name: result
+    type: output
+
+types:
+ - features_type
+ - labels_type
+ - output
