@@ -21,7 +21,7 @@ steps:
       type: python3
       imports: [sklearn-component]
       parameters:
-        file: sklearn-resource/steps/tutorial1/generate-train-step.py
+        file: sklearn-resource/steps/generate-train-step.py
         function: generate_train_predict
   inputs:
     - dataset_name: "simple_dataset"
