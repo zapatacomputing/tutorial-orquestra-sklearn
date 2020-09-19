@@ -4,9 +4,9 @@ apiVersion: io.orquestra.workflow/1.0.0
 # Prefix for workflow ID
 name: tutorial-1
 
-# List resources needed by workflow.
+# List components needed by workflow.
 imports:
-- name: sklearn-resource
+- name: sklearn-component
   type: git
   parameters:
     repository: "git@github.com:zapatacomputing/tutorial-orquestra-sklearn.git"
@@ -19,7 +19,7 @@ steps:
   config:
     runtime:
       type: python3
-      imports: [sklearn-resource]
+      imports: [sklearn-component]
       parameters:
         file: sklearn-resource/steps/tutorial1/generate-train-step.py
         function: generate_train_predict

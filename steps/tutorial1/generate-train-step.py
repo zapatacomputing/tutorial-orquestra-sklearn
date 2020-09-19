@@ -1,5 +1,5 @@
-from tutorial.functions import *
-from tutorial.utils import save_json
+from orquestra.functions import *
+from orquestra.utils import save_json
 
 # This is the task for Tutorials 1 and 2
 # It does an end-to-end job, from generating the dataset
