@@ -30,7 +30,7 @@ steps:
       type: string
   outputs:
   - name: result
-    type: output
+    type: output_type
 
 types:
- - output
+ - output_type
