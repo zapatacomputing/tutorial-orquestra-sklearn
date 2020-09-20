@@ -2,7 +2,8 @@ import json
 import pandas as pd
 
 import json
-with open('./examples/outputs/tutorial-1-84deb2de-d2bd-442a-ab16-5621e098d8d8.json') as f:
+
+with open('./examples/outputs/tutorial-1-workflow-output.json') as f:
     data = json.load(f)
 
 steps = list(data.keys())
