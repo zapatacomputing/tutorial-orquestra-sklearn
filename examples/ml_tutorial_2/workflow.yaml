@@ -2,7 +2,7 @@
 apiVersion: io.orquestra.workflow/1.0.0
 
 # Prefix for workflow ID
-name: tutorial-1-exercise-1
+name: tutorial-2-workflow
 
 # List components needed by workflow.
 imports:
@@ -14,23 +14,23 @@ imports:
 
 steps:
 
-# This step trains a support vector machine model on the square_dataset
-- name: svm-square
+# This step runs the step that trains the model from the z-scikit-learn component
+- name: perceptron-training
   config:
     runtime:
       type: python3
       imports: [sklearn-component]
       parameters:
-        file: sklearn-component/steps/tutorial_1_step.py
+        file: sklearn-component/steps/ml_tutorial_2_step.py
         function: generate_train_step
   inputs:
-    - dataset_name: "square_dataset"
+    - dataset_name: "simple_dataset"
       type: string
-    - model_name: "svm"
+    - model_name: "perceptron"
       type: string
   outputs:
   - name: result
-    type: output_type
+    type: output
 
 types:
- - output_type
+ - output

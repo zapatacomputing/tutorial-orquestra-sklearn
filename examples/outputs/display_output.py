@@ -3,6 +3,7 @@ import pandas as pd
 
 import json
 
+# Insert file path in the next line
 with open('./examples/outputs/tutorial-1-workflow-output.json') as f:
     data = json.load(f)
 

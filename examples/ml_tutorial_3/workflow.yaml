@@ -21,7 +21,7 @@ steps:
       type: python3
       imports: [sklearn-component]
       parameters:
-        file: sklearn-component/steps/tutorial_3_steps.py
+        file: sklearn-component/steps/ml_tutorial_3_steps.py
         function: generate_preprocess_step
   inputs:
     - dataset_name: "simple_dataset"
@@ -40,7 +40,7 @@ steps:
       type: python3
       imports: [sklearn-component]
       parameters:
-        file: sklearn-component/steps/tutorial_3_steps.py
+        file: sklearn-component/steps/ml_tutorial_3_steps.py
         function: train_predict_accuracy_step
   inputs:
     - features: ((generate-data.features))
