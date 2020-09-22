@@ -1,0 +1,227 @@
+{
+    "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415": {
+        "class": "generate-data",
+        "features": {
+            "features": [
+                {
+                    "features": [
+                        {
+                            "features": 1,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[0]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[0]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        },
+                        {
+                            "features": 0,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[0]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[0]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        }
+                    ],
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[0]",
+                    "orquestra-v1-data_features_index": 0,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "features": [
+                        {
+                            "features": 0,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[1]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[1]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        },
+                        {
+                            "features": 1,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[1]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[1]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        }
+                    ],
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[1]",
+                    "orquestra-v1-data_features_index": 1,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "features": [
+                        {
+                            "features": -1,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[2]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[2]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        },
+                        {
+                            "features": 0,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[2]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[2]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        }
+                    ],
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[2]",
+                    "orquestra-v1-data_features_index": 2,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "features": [
+                        {
+                            "features": 0,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[3]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[3]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        },
+                        {
+                            "features": -1,
+                            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[3]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[3]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                        }
+                    ],
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features_features[3]",
+                    "orquestra-v1-data_features_index": 3,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                }
+            ],
+            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features",
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415",
+            "stepName": "generate-data",
+            "taskClass": "generate-data",
+            "taskId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415",
+            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+        },
+        "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415",
+        "inputParam:docker-image": "z-quantum-default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "labels": {
+            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels",
+            "labels": [
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels_labels[0]",
+                    "labels": 0,
+                    "orquestra-v1-data_labels_index": 0,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels_labels[1]",
+                    "labels": 1,
+                    "orquestra-v1-data_labels_index": 1,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels_labels[2]",
+                    "labels": 1,
+                    "orquestra-v1-data_labels_index": 2,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels_labels[3]",
+                    "labels": 0,
+                    "orquestra-v1-data_labels_index": 3,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                }
+            ],
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415",
+            "stepName": "generate-data",
+            "taskClass": "generate-data",
+            "taskId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415",
+            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+        },
+        "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+    },
+    "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339": {
+        "class": "train-model",
+        "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339",
+        "inputArtifact:features": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/features",
+        "inputArtifact:labels": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-1089761415/labels",
+        "inputParam:docker-image": "z-quantum-default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "result": {
+            "accuracy": [
+                {
+                    "accuracy": 1,
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result_accuracy[0]",
+                    "orquestra-v1-data_accuracy_index": 0,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                }
+            ],
+            "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result",
+            "predictions": [
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result_predictions[0]",
+                    "orquestra-v1-data_predictions_index": 0,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result_predictions[1]",
+                    "orquestra-v1-data_predictions_index": 1,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result_predictions[2]",
+                    "orquestra-v1-data_predictions_index": 2,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                },
+                {
+                    "id": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result_predictions[3]",
+                    "orquestra-v1-data_predictions_index": 3,
+                    "parentId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+                }
+            ],
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339",
+            "stepName": "train-model",
+            "taskClass": "train-model",
+            "taskId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d-2119167339",
+            "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+        },
+        "workflowId": "ml-3-workflow-281e8c7f-25be-43a4-99a1-fe648778ea1d"
+    }
+}

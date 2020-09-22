@@ -1,0 +1,138 @@
+{
+    "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386": {
+        "class": "perceptron-training",
+        "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386",
+        "inputParam:docker-image": "z-quantum-default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "result": {
+            "accuracy": 1,
+            "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result",
+            "predictions": [
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result_predictions[0]",
+                    "orquestra-v1-data_predictions_index": 0,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result_predictions[1]",
+                    "orquestra-v1-data_predictions_index": 1,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result_predictions[2]",
+                    "orquestra-v1-data_predictions_index": 2,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result_predictions[3]",
+                    "orquestra-v1-data_predictions_index": 3,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                }
+            ],
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386",
+            "stepName": "perceptron-training",
+            "taskClass": "perceptron-training",
+            "taskId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3226708386",
+            "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+        },
+        "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+    },
+    "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875": {
+        "class": "svm-square",
+        "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875",
+        "inputParam:docker-image": "z-quantum-default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "result": {
+            "accuracy": 1,
+            "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+            "predictions": [
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[0]",
+                    "orquestra-v1-data_predictions_index": 0,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[1]",
+                    "orquestra-v1-data_predictions_index": 1,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[2]",
+                    "orquestra-v1-data_predictions_index": 2,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[3]",
+                    "orquestra-v1-data_predictions_index": 3,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[4]",
+                    "orquestra-v1-data_predictions_index": 4,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[5]",
+                    "orquestra-v1-data_predictions_index": 5,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[6]",
+                    "orquestra-v1-data_predictions_index": 6,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                },
+                {
+                    "id": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result_predictions[7]",
+                    "orquestra-v1-data_predictions_index": 7,
+                    "parentId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+                }
+            ],
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875",
+            "stepName": "svm-square",
+            "taskClass": "svm-square",
+            "taskId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d-3551820875",
+            "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+        },
+        "workflowId": "ml-1-exercise-2-477a3483-bf63-49f9-a924-c7485427d17d"
+    }
+}

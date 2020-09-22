@@ -2,7 +2,7 @@
 apiVersion: io.orquestra.workflow/1.0.0
 
 # Prefix for workflow ID
-name: tutorial-2-workflow
+name: ml-2-workflow
 
 # List components needed by workflow.
 imports:
@@ -18,7 +18,7 @@ steps:
 - name: perceptron-training
   config:
     runtime:
-      type: python3
+      language: python3
       imports: [sklearn-component]
       parameters:
         file: sklearn-component/steps/ml_tutorial_2_step.py

@@ -1,0 +1,54 @@
+{
+    "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728": {
+        "class": "perceptron-training",
+        "id": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728",
+        "inputParam:docker-image": "z-quantum-default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "result": {
+            "accuracy": 1,
+            "id": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result",
+            "predictions": [
+                {
+                    "id": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result_predictions[0]",
+                    "orquestra-v1-data_predictions_index": 0,
+                    "parentId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06"
+                },
+                {
+                    "id": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result_predictions[1]",
+                    "orquestra-v1-data_predictions_index": 1,
+                    "parentId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06"
+                },
+                {
+                    "id": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result_predictions[2]",
+                    "orquestra-v1-data_predictions_index": 2,
+                    "parentId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06"
+                },
+                {
+                    "id": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result_predictions[3]",
+                    "orquestra-v1-data_predictions_index": 3,
+                    "parentId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06"
+                }
+            ],
+            "schema": "orquestra-v1-data",
+            "stepId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728",
+            "stepName": "perceptron-training",
+            "taskClass": "perceptron-training",
+            "taskId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06-2728170728",
+            "workflowId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06"
+        },
+        "workflowId": "tutorial-2-workflow-c73b4bc0-958d-4fba-bf12-bee6383bff06"
+    }
+}

@@ -1,3 +1,54 @@
 {
-"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446": {"class":"perceptron-training","id":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446","inputParam:docker-image":"z-quantum-default","inputParam:docker-registry":"zapatacomputing","inputParam:docker-tag":"latest","result":{"accuracy":1,"id":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result","predictions":[{"id":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result_predictions[0]","orquestra-v1-data_predictions_index":0,"parentId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result","parentType":"orquestra-v1-data","predictions":0,"workflowId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772"},{"id":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result_predictions[1]","orquestra-v1-data_predictions_index":1,"parentId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result","parentType":"orquestra-v1-data","predictions":1,"workflowId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772"},{"id":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result_predictions[2]","orquestra-v1-data_predictions_index":2,"parentId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result","parentType":"orquestra-v1-data","predictions":1,"workflowId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772"},{"id":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result_predictions[3]","orquestra-v1-data_predictions_index":3,"parentId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446/result","parentType":"orquestra-v1-data","predictions":0,"workflowId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772"}],"schema":"orquestra-v1-data","stepId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446","stepName":"perceptron-training","taskClass":"perceptron-training","taskId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772-1016450446","workflowId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772"},"workflowId":"ml-1-workflow-3a3ee22c-9bed-4632-8f47-444a3e6fc772"}
+    "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162": {
+        "class": "perceptron-training",
+        "id": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162",
+        "inputParam:docker-image": "z-quantum-default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "result": {
+            "accuracy": 1,
+            "id": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result",
+            "predictions": [
+                {
+                    "id": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result_predictions[0]",
+                    "orquestra-v1-data_predictions_index": 0,
+                    "parentId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28"
+                },
+                {
+                    "id": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result_predictions[1]",
+                    "orquestra-v1-data_predictions_index": 1,
+                    "parentId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28"
+                },
+                {
+                    "id": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result_predictions[2]",
+                    "orquestra-v1-data_predictions_index": 2,
+                    "parentId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 1,
+                    "workflowId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28"
+                },
+                {
+                    "id": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result_predictions[3]",
+                    "orquestra-v1-data_predictions_index": 3,
+                    "parentId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162/result",
+                    "parentType": "orquestra-v1-data",
+                    "predictions": 0,
+                    "workflowId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28"
+                }
+            ],
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162",
+            "stepName": "perceptron-training",
+            "taskClass": "perceptron-training",
+            "taskId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28-586249162",
+            "workflowId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28"
+        },
+        "workflowId": "ml-1-workflow-24967342-e570-4e8e-9e7a-3a240ed63f28"
+    }
 }

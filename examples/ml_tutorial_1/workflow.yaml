@@ -18,7 +18,7 @@ steps:
 - name: perceptron-training
   config:
     runtime:
-      type: python3
+      language: python3
       imports: [sklearn-component]
       parameters:
         file: sklearn-component/steps/ml_tutorial_1_step.py

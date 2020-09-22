@@ -4,16 +4,20 @@ import pandas as pd
 import json
 
 # Insert file path in the next line
-with open('./examples/outputs/ml-1-workflow-output.json') as f:
+with open('./examples/outputs/ml-3-exercise-output.json') as f:
+#with open('./examples/outputs/ml-1-workflow-output.json') as f:
     data = json.load(f)
 
 steps = list(data.keys())
+print(steps)
 
 for step in steps:
-    result = data[step]['result']
-    print("Predictions")
-    for prediction in result['predictions']:
-        print(prediction['predictions'])
-    print()
-    print("Accuracy")
-    print(result["accuracy"])
+    if 'result' in data[step].keys():
+        print("****** STEP ******")
+        result = data[step]['result']
+        print("Predictions:")
+        for prediction in result['predictions']:
+            print(prediction['predictions'])
+        print()
+        print("Accuracy:")
+        print(result["accuracy"])
