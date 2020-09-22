@@ -38,5 +38,5 @@ def calculate_accuracy_step(labels, predictions):
 
     result = {}
     result["predictions"] = pred
-    result["accuracy"] = [accuracy]
+    result["accuracy"] = accuracy
     save_json(result, 'result.json')

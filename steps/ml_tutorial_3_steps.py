@@ -34,5 +34,5 @@ def train_predict_accuracy_step(features, labels, model_name):
     # Saving the prediction and accuracy as results
     result = {}
     result['predictions'] = predictions.tolist()
-    result['accuracy'] = [accuracy]
+    result['accuracy'] = accuracy
     save_json(result, 'result.json')
