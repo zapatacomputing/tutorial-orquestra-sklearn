@@ -9,7 +9,6 @@ with open('./examples/outputs/ml-3-exercise-output.json') as f:
     data = json.load(f)
 
 steps = list(data.keys())
-print(steps)
 
 for step in steps:
     if 'result' in data[step].keys():

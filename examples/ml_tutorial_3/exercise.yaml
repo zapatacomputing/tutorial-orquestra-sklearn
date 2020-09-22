@@ -87,10 +87,10 @@ steps:
       type: labels_type
   outputs:
   - name: result
-    type: accuracy_type
+    type: output_type
 types:
  - data_type
  - features_type
  - labels_type
  - predictions_type
- - accuracy_type
+ - output_type
