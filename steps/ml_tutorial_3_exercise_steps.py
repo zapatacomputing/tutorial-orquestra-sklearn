@@ -27,7 +27,7 @@ def train_predict_step(features, labels, model_name):
     predictions = make_predictions(model, feat)
 
     predictions_dict = {}
-    predictions_dict['predictions'] = predictions
+    predictions_dict['predictions'] = predictions.tolist()
     save_json(predictions_dict, 'predictions.json')
 
 def calculate_accuracy_step(labels, predictions):
