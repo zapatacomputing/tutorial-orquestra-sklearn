@@ -1,221 +1,59 @@
 {
-    "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144": {
-        "class": "train-predict",
-        "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144",
-        "inputArtifact:features": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features",
-        "inputArtifact:labels": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels",
+    "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335": {
+        "class": "calculate-accuracy",
+        "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335",
+        "inputArtifact:labels": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels",
+        "inputArtifact:predictions": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions",
         "inputParam:docker-image": "z-quantum-default",
         "inputParam:docker-registry": "zapatacomputing",
         "inputParam:docker-tag": "latest",
-        "predictions": {
-            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions",
+        "result": {
+            "accuracy": 1,
+            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result",
             "predictions": [
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions_predictions[0]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result_predictions[0]",
                     "orquestra-v1-data_predictions_index": 0,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result",
                     "parentType": "orquestra-v1-data",
                     "predictions": 0,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions_predictions[1]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result_predictions[1]",
                     "orquestra-v1-data_predictions_index": 1,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result",
                     "parentType": "orquestra-v1-data",
                     "predictions": 1,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions_predictions[2]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result_predictions[2]",
                     "orquestra-v1-data_predictions_index": 2,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result",
                     "parentType": "orquestra-v1-data",
                     "predictions": 1,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions_predictions[3]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result_predictions[3]",
                     "orquestra-v1-data_predictions_index": 3,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335/result",
                     "parentType": "orquestra-v1-data",
                     "predictions": 0,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 }
             ],
             "schema": "orquestra-v1-data",
-            "stepId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144",
-            "stepName": "train-predict",
-            "taskClass": "train-predict",
-            "taskId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144",
-            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+            "stepId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335",
+            "stepName": "calculate-accuracy",
+            "taskClass": "calculate-accuracy",
+            "taskId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1942109335",
+            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
         },
-        "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+        "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
     },
-    "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359": {
-        "class": "preprocess-data",
-        "features": {
-            "features": [
-                {
-                    "features": [
-                        {
-                            "features": 1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[0]_features[0]",
-                            "orquestra-v1-data_features_features_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[0]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        },
-                        {
-                            "features": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[0]_features[1]",
-                            "orquestra-v1-data_features_features_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[0]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        }
-                    ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[0]",
-                    "orquestra-v1-data_features_index": 0,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                },
-                {
-                    "features": [
-                        {
-                            "features": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[1]_features[0]",
-                            "orquestra-v1-data_features_features_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[1]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        },
-                        {
-                            "features": 1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[1]_features[1]",
-                            "orquestra-v1-data_features_features_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[1]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        }
-                    ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[1]",
-                    "orquestra-v1-data_features_index": 1,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                },
-                {
-                    "features": [
-                        {
-                            "features": -1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[2]_features[0]",
-                            "orquestra-v1-data_features_features_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[2]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        },
-                        {
-                            "features": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[2]_features[1]",
-                            "orquestra-v1-data_features_features_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[2]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        }
-                    ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[2]",
-                    "orquestra-v1-data_features_index": 2,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                },
-                {
-                    "features": [
-                        {
-                            "features": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[3]_features[0]",
-                            "orquestra-v1-data_features_features_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[3]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        },
-                        {
-                            "features": -1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[3]_features[1]",
-                            "orquestra-v1-data_features_features_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[3]",
-                            "parentType": "orquestra-v1-data_features",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                        }
-                    ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features_features[3]",
-                    "orquestra-v1-data_features_index": 3,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                }
-            ],
-            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/features",
-            "schema": "orquestra-v1-data",
-            "stepId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359",
-            "stepName": "preprocess-data",
-            "taskClass": "preprocess-data",
-            "taskId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359",
-            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-        },
-        "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359",
-        "inputArtifact:data": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data",
-        "inputParam:docker-image": "z-quantum-default",
-        "inputParam:docker-registry": "zapatacomputing",
-        "inputParam:docker-tag": "latest",
-        "labels": {
-            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels",
-            "labels": [
-                {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels_labels[0]",
-                    "labels": 0,
-                    "orquestra-v1-data_labels_index": 0,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                },
-                {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels_labels[1]",
-                    "labels": 1,
-                    "orquestra-v1-data_labels_index": 1,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                },
-                {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels_labels[2]",
-                    "labels": 1,
-                    "orquestra-v1-data_labels_index": 2,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                },
-                {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels_labels[3]",
-                    "labels": 0,
-                    "orquestra-v1-data_labels_index": 3,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels",
-                    "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-                }
-            ],
-            "schema": "orquestra-v1-data",
-            "stepId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359",
-            "stepName": "preprocess-data",
-            "taskClass": "preprocess-data",
-            "taskId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359",
-            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-        },
-        "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
-    },
-    "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288": {
+    "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065": {
         "class": "generate-data",
         "data": {
             "data": [
@@ -223,201 +61,363 @@
                     "data": [
                         {
                             "data": 1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[0]_data[0]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[0]_data[0]",
                             "orquestra-v1-data_data_data_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[0]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[0]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[0]_data[1]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[0]_data[1]",
                             "orquestra-v1-data_data_data_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[0]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[0]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[0]_data[2]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[0]_data[2]",
                             "orquestra-v1-data_data_data_index": 2,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[0]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[0]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         }
                     ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[0]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[0]",
                     "orquestra-v1-data_data_index": 0,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data",
                     "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
                     "data": [
                         {
                             "data": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[1]_data[0]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[1]_data[0]",
                             "orquestra-v1-data_data_data_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[1]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[1]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": 1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[1]_data[1]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[1]_data[1]",
                             "orquestra-v1-data_data_data_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[1]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[1]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": 1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[1]_data[2]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[1]_data[2]",
                             "orquestra-v1-data_data_data_index": 2,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[1]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[1]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         }
                     ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[1]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[1]",
                     "orquestra-v1-data_data_index": 1,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data",
                     "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
                     "data": [
                         {
                             "data": -1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[2]_data[0]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[2]_data[0]",
                             "orquestra-v1-data_data_data_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[2]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[2]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[2]_data[1]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[2]_data[1]",
                             "orquestra-v1-data_data_data_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[2]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[2]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": 1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[2]_data[2]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[2]_data[2]",
                             "orquestra-v1-data_data_data_index": 2,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[2]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[2]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         }
                     ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[2]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[2]",
                     "orquestra-v1-data_data_index": 2,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data",
                     "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
                     "data": [
                         {
                             "data": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[3]_data[0]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[3]_data[0]",
                             "orquestra-v1-data_data_data_index": 0,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[3]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[3]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": -1,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[3]_data[1]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[3]_data[1]",
                             "orquestra-v1-data_data_data_index": 1,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[3]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[3]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         },
                         {
                             "data": 0,
-                            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[3]_data[2]",
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[3]_data[2]",
                             "orquestra-v1-data_data_data_index": 2,
-                            "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[3]",
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[3]",
                             "parentType": "orquestra-v1-data_data",
-                            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                         }
                     ],
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data_data[3]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data_data[3]",
                     "orquestra-v1-data_data_index": 3,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data",
                     "parentType": "orquestra-v1-data",
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 }
             ],
-            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288/data",
+            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data",
             "schema": "orquestra-v1-data",
-            "stepId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288",
+            "stepId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065",
             "stepName": "generate-data",
             "taskClass": "generate-data",
-            "taskId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288",
-            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+            "taskId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065",
+            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
         },
-        "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3185556288",
+        "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065",
         "inputParam:docker-image": "z-quantum-default",
         "inputParam:docker-registry": "zapatacomputing",
         "inputParam:docker-tag": "latest",
-        "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+        "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
     },
-    "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044": {
-        "class": "calculate-accuracy",
-        "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044",
-        "inputArtifact:labels": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-3057103359/labels",
-        "inputArtifact:predictions": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1564670144/predictions",
+    "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677": {
+        "class": "train-predict",
+        "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677",
+        "inputArtifact:features": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features",
+        "inputArtifact:labels": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels",
         "inputParam:docker-image": "z-quantum-default",
         "inputParam:docker-registry": "zapatacomputing",
         "inputParam:docker-tag": "latest",
-        "result": {
-            "accuracy": 1,
-            "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result",
+        "predictions": {
+            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions",
             "predictions": [
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result_predictions[0]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions_predictions[0]",
                     "orquestra-v1-data_predictions_index": 0,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions",
                     "parentType": "orquestra-v1-data",
                     "predictions": 0,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result_predictions[1]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions_predictions[1]",
                     "orquestra-v1-data_predictions_index": 1,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions",
                     "parentType": "orquestra-v1-data",
                     "predictions": 1,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result_predictions[2]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions_predictions[2]",
                     "orquestra-v1-data_predictions_index": 2,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions",
                     "parentType": "orquestra-v1-data",
                     "predictions": 1,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 },
                 {
-                    "id": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result_predictions[3]",
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions_predictions[3]",
                     "orquestra-v1-data_predictions_index": 3,
-                    "parentId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044/result",
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677/predictions",
                     "parentType": "orquestra-v1-data",
                     "predictions": 0,
-                    "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
                 }
             ],
             "schema": "orquestra-v1-data",
-            "stepId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044",
-            "stepName": "calculate-accuracy",
-            "taskClass": "calculate-accuracy",
-            "taskId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6-1080445044",
-            "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+            "stepId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677",
+            "stepName": "train-predict",
+            "taskClass": "train-predict",
+            "taskId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-3077894677",
+            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
         },
-        "workflowId": "ml-3-exercise-81d2b425-d5a3-4a60-bddf-87242ce8dde6"
+        "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+    },
+    "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006": {
+        "class": "preprocess-data",
+        "features": {
+            "features": [
+                {
+                    "features": [
+                        {
+                            "features": 1,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[0]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[0]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        },
+                        {
+                            "features": 0,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[0]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[0]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        }
+                    ],
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[0]",
+                    "orquestra-v1-data_features_index": 0,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                },
+                {
+                    "features": [
+                        {
+                            "features": 0,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[1]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[1]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        },
+                        {
+                            "features": 1,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[1]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[1]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        }
+                    ],
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[1]",
+                    "orquestra-v1-data_features_index": 1,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                },
+                {
+                    "features": [
+                        {
+                            "features": -1,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[2]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[2]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        },
+                        {
+                            "features": 0,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[2]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[2]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        }
+                    ],
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[2]",
+                    "orquestra-v1-data_features_index": 2,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                },
+                {
+                    "features": [
+                        {
+                            "features": 0,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[3]_features[0]",
+                            "orquestra-v1-data_features_features_index": 0,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[3]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        },
+                        {
+                            "features": -1,
+                            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[3]_features[1]",
+                            "orquestra-v1-data_features_features_index": 1,
+                            "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[3]",
+                            "parentType": "orquestra-v1-data_features",
+                            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                        }
+                    ],
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features_features[3]",
+                    "orquestra-v1-data_features_index": 3,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                }
+            ],
+            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/features",
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006",
+            "stepName": "preprocess-data",
+            "taskClass": "preprocess-data",
+            "taskId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006",
+            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+        },
+        "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006",
+        "inputArtifact:data": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-2889346065/data",
+        "inputParam:docker-image": "z-quantum-default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "labels": {
+            "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels",
+            "labels": [
+                {
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels_labels[0]",
+                    "labels": 0,
+                    "orquestra-v1-data_labels_index": 0,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                },
+                {
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels_labels[1]",
+                    "labels": 1,
+                    "orquestra-v1-data_labels_index": 1,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                },
+                {
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels_labels[2]",
+                    "labels": 1,
+                    "orquestra-v1-data_labels_index": 2,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                },
+                {
+                    "id": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels_labels[3]",
+                    "labels": 0,
+                    "orquestra-v1-data_labels_index": 3,
+                    "parentId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006/labels",
+                    "parentType": "orquestra-v1-data",
+                    "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+                }
+            ],
+            "schema": "orquestra-v1-data",
+            "stepId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006",
+            "stepName": "preprocess-data",
+            "taskClass": "preprocess-data",
+            "taskId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe-1048113006",
+            "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
+        },
+        "workflowId": "ml-3-exercise-7f9c9a0a-fbca-4f1b-a0b0-16b8fc682fbe"
     }
 }
