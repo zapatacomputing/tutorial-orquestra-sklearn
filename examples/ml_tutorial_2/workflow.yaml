@@ -14,7 +14,7 @@ imports:
 
 steps:
 
-# This step runs the step that trains the model from the z-scikit-learn component
+# This step runs the step that trains the model
 - name: perceptron-training
   config:
     runtime:
