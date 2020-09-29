@@ -2,14 +2,13 @@ import os
 import setuptools
 
 setuptools.setup(
-    name                            = "tutorial-orquestra-sklearn",
+    name                            = "tutorial",
     version                         = "0.1.0",
     author                          = "Zapata Computing, Inc.",
     author_email                    = "info@zapatacomputing.com",
     description                     = "Training models with scikit-learn in orquestra.",
     url                             = "https://github.com/zapatacomputing/tutorial-orquestra-sklearn",
-    packages                        = setuptools.find_packages(where = "python"),
-    package_dir                     = {"" : "python"},
+    packages                        = setuptools.find_packages(),
     classifiers                     = (
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
