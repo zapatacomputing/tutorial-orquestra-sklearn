@@ -65,7 +65,7 @@ steps:
     - features: ((preprocess-data.features))
       type: features_type
     - labels: ((preprocess-data.labels))
-      type: features_type
+      type: labels_type
   outputs:
   - name: predictions
     type: predictions_type

@@ -14,7 +14,7 @@ imports:
 
 steps:
 
-# This step generates and preprocesses the data
+# This step gengerates and preprocesses the data
 - name: generate-data
   config:
     runtime:
@@ -46,7 +46,7 @@ steps:
     - features: ((generate-data.features))
       type: features_type
     - labels: ((generate-data.labels))
-      type: features_type
+      type: labels_type
     - model_name: "perceptron"
       type: string
   outputs:
